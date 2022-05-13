@@ -23,10 +23,10 @@ public class Movimentacao {
 	
 	private String descricao;
 	
+	private Double valor;
+	
 	@Enumerated(EnumType.STRING)
 	private MovimentacaoTipo tipo;
-	
-	private double valor;
 	
 	@Column(name = "id_conta")
 	private Integer idConta;
